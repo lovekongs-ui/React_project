@@ -1,4 +1,4 @@
-// src/Timer.jsx (사용 예시)
+// src/Timer.jsx
 import { useState } from "react";
 import { useInterval } from "./hooks/useInterval";
 
