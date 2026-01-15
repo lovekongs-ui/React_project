@@ -4,6 +4,7 @@ import './App.css'
 import RegistrationForm from "./components/RegistrationForm";
 import Counter from "./History";
 import MyComponent from "./MyComponent.jsx";
+import Timer from "./Timer.jsx"; 
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,16 +18,16 @@ function App() {
       </div>
 
       <hr />
-
       <RegistrationForm />
 
       <hr />
-
       <Counter />
 
       <hr />
-
       <MyComponent />
+
+      <hr />
+      <Timer /> { }
     </>
   )
 }
